@@ -1,0 +1,70 @@
+# DCS-Clipper Configuration
+
+# Sistema Principal
+system:
+  name: "DCS-Clipper"
+  version: "1.0.0"
+  language: "es"
+  log_level: "INFO"
+  max_concurrent_tasks: 3
+
+# Configuración de IA
+ai:
+  # Análisis de contenido
+  content_analysis:
+    min_clip_duration: 15  # segundos
+    max_clip_duration: 60  # segundos
+    interest_threshold: 0.7
+    
+  # Detección de momentos
+  moment_detection:
+    analyze_audio: true
+    analyze_video: true
+    detect_faces: true
+    detect_text: true
+    
+  # Generación de títulos
+  title_generation:
+    max_length: 100
+    language: "es"
+    style: "engaging"
+
+# Configuración de Medios
+media:
+  # Descarga
+  download:
+    max_quality: "1080p"
+    temp_directory: "data/downloads"
+    max_retries: 3
+    
+  # Edición
+  editing:
+    output_format: "mp4"
+    codec: "h264"
+    add_watermark: true
+    watermark_position: "bottom-right"
+    
+  # Subida
+  upload:
+    platforms:
+      - youtube
+      - tiktok
+      - instagram
+    auto_publish: true
+    schedule_uploads: true
+
+# Monitoreo de Canales
+channels:
+  check_interval: 3600  # segundos
+  regions:
+    - "es"      # España
+    - "co"      # Colombia
+    - "ar"      # Argentina
+    - "mx"      # México
+    - "us"      # Estados Unidos
+
+# Almacenamiento
+storage:
+  max_cache_size: "50GB"
+  cleanup_interval: 86400  # 24 horas
+  backup_enabled: true

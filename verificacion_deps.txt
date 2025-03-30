@@ -1,0 +1,12 @@
+﻿Python version: 3.12.0 (tags/v3.12.0:0fb18b0, Oct  2 2023, 13:03:39) [MSC v.1935 64 bit (AMD64)]
+
+VerificaciÃ³n de dependencias:
+PyQt6: ERROR -   File "<string>", line 1     import sys; import importlib; try: importlib.import_module('pyqt6'); print('OK'); sys.exit(0); except ImportError as e: print(str(e)); sys.exit(1)                                   ^^^ SyntaxError: invalid syntax
+yaml: ERROR -   File "<string>", line 1     import sys; import importlib; try: importlib.import_module('yaml'); print('OK'); sys.exit(0); except ImportError as e: print(str(e)); sys.exit(1)                                   ^^^ SyntaxError: invalid syntax
+numpy: ERROR -   File "<string>", line 1     import sys; import importlib; try: importlib.import_module('numpy'); print('OK'); sys.exit(0); except ImportError as e: print(str(e)); sys.exit(1)                                   ^^^ SyntaxError: invalid syntax
+pandas: ERROR -   File "<string>", line 1     import sys; import importlib; try: importlib.import_module('pandas'); print('OK'); sys.exit(0); except ImportError as e: print(str(e)); sys.exit(1)                                   ^^^ SyntaxError: invalid syntax
+requests: ERROR -   File "<string>", line 1     import sys; import importlib; try: importlib.import_module('requests'); print('OK'); sys.exit(0); except ImportError as e: print(str(e)); sys.exit(1)                                   ^^^ SyntaxError: invalid syntax
+PIL: ERROR -   File "<string>", line 1     import sys; import importlib; try: importlib.import_module('pil'); print('OK'); sys.exit(0); except ImportError as e: print(str(e)); sys.exit(1)                                   ^^^ SyntaxError: invalid syntax
+moviepy: ERROR -   File "<string>", line 1     import sys; import importlib; try: importlib.import_module('moviepy'); print('OK'); sys.exit(0); except ImportError as e: print(str(e)); sys.exit(1)                                   ^^^ SyntaxError: invalid syntax
+tensorflow: ERROR -   File "<string>", line 1     import sys; import importlib; try: importlib.import_module('tensorflow'); print('OK'); sys.exit(0); except ImportError as e: print(str(e)); sys.exit(1)                                   ^^^ SyntaxError: invalid syntax
+torch: ERROR -   File "<string>", line 1     import sys; import importlib; try: importlib.import_module('torch'); print('OK'); sys.exit(0); except ImportError as e: print(str(e)); sys.exit(1)                                   ^^^ SyntaxError: invalid syntax

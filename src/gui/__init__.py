@@ -1,0 +1,1 @@
+# Módulo de interfaz gráfica para DCS-Clipper
